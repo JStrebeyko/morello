@@ -2,8 +2,12 @@ import * as React from 'react';
 import './App.css';
 import Board from './components/Board'
 
-// import logo from './logo.svg';
+// here comes a rather clumsy store implementation:
+// the idea here is to simulate outer data sourced, preferably
+// JSON, that'd be fetched and passed down.
 
+// It has also been assumed that there'd be one fatty object/array
+// for each board.
 const initialState = {
   board1: [
     {

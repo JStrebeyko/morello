@@ -36,6 +36,18 @@
   border-radius: 11px;
 }
 
+.list .title {
+  line-height: 4rem;
+}
+
+.task {
+  min-height: 20px;
+  background-color: grey;
+  width: 90px;
+  border-radius: 11px;
+  margin-right: auto;
+  margin-left: auto;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
